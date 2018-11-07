@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='DSInterface',
-    version='0.1rc1',
+    version='0.1rc2',
     description="A tiny python port of WPILib's driverstation class",
     url='https://github.com/frc5024/DSInterface',
     author='Evan Pratten',
