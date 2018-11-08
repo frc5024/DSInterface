@@ -17,10 +17,10 @@ class DriverStation(object):
 			return alliances.Blue
 	
 	def getStation(self):
-		return int(self.fms.getEntry("StationNumber", 1))
+		return int(self.fms.getEntry("StationNumber"))
 	
 	def getMatchType(self):
-		return int(self.fms.getEntry("MatchType", 0))
+		return int(self.fms.getEntry("MatchType"))
 	
 	def getFMSControlData(self):
 		return self.fms.getEntry("FMSControlData")
